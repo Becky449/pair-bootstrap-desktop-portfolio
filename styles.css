@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.end-section {
+.end {
     background-image: url(./Images/footer-left-end.svg), url(./Images/footer-right-end.svg);
     background-position: bottom left, top right;
     background-repeat: no-repeat;
@@ -18,3 +18,9 @@ body {
 .end-text {
     padding: 50vm;
 }
+
+/* .end-section {
+    background: rgb(184, 164, 164);
+    width: 80vw;
+} */
+
