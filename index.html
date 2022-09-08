@@ -13,7 +13,8 @@
     <script src="js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-  <div class=" bg-image" style="background-image: url('Images/header-ilustration-desktop.svg'); height: 130vh ; background-repeat: no-repeat;" >
+
+  <div class="bg-image col-xl col-lg bg-1" style="background-image: url('Images/header-ilustration-desktop.svg'); height: 130vh ; background-repeat: no-repeat;" >
     <nav class="navbar navbar-expand-sm justify-content-center">
         <ul class="navbar-nav justify-content-center">
           <li class="nav-item">
@@ -43,8 +44,58 @@
       <img src="./Images/down-btn.svg" alt="Scroll down button">
     </a>
     </div>
-    
   </div>
+
+  <div class="bg-image col-sm bg-2" style="background-image: url('Images/background/bg.svg'); background-repeat: no-repeat;">
+ 
+    <nav class="navbar navbar-expand-sm" style="display: flex; flex-direction: row; justify-content: space-around;" >
+      <div class="logo">Logo</div>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler ms-auto" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent3"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+      <div class="collapse" id="navbarToggleExternalContent3">
+        <div class="bg-light shadow-3 p-4">
+          <button class="btn btn-link btn-block border-bottom m-0">Link 1</button>
+          <button class="btn btn-link btn-block border-bottom m-0">Link 2</button>
+          <button class="btn btn-link btn-block m-0">Link 3</button>
+        </div>
+      </div>
+        <!-- <ul class="navbar-nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyPortfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyAbout">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyContact">Contact</a>
+          </li>
+        </ul> -->
+    </nav>
+  
+    <div class="container p-5 mt-5 text-dark text-center">
+      <h1 class="" style="color: #172B4D">Hello there. We are <br> Becky,  Usama and Evans. <br> <span style="color: #36B37E"> We are Software Developers</span></h1>
+      <p> 
+        I can help you build a product , feature or website Look through some of my work and <br> experience! If you like what you see and have a project you need coded, <br> 
+        don't hestiate to contact me.
+      </p> 
+      <a href="">
+        <img src="images/social-media-icons/social-media.png" alt="">
+      </a>
+    </div>
+    <div class="d-flex justify-content-center">
+      <a href="">
+      <img src="./Images/down-btn.svg" alt="Scroll down button">
+    </a>
+    </div>
+  </div>
+
 <!-- The about me section starts -->
   <div class="d-flex justify-content-center pt-5 mb-5" style="color: #172B4D;">
     <h2 id="scrollspyPortfolio">My Recent Works</h2>
@@ -102,8 +153,26 @@
         </div>
         <div class="d-flex justify-content-center mb-3">
           <a href=""
-            class="btn btn-success"> See Project
+            class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"> See Project
           </a>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/modal-img.png" style="width: 100%;">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -121,8 +190,26 @@
         </div>
         <div class="d-flex justify-content-center mb-3">
           <a href=""
-            class="btn btn-success"> See Project
+            class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"> See Project
           </a>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/modal-img.png" style="width: 100%;">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -144,8 +231,26 @@
         </div>
         <div class="d-flex justify-content-center mb-3">
           <a href=""
-            class="btn btn-success"> See Project
+            class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"> See Project
           </a>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="./Images/modal-img.png" style="width: 100%;">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -164,8 +269,26 @@
 
         <div class="d-flex justify-content-center mb-3">
           <a href=""
-            class="btn btn-success"> See Project
+            class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"> See Project
         </a>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="./Images/modal-img.png" style="width: 100%;">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
         </div>
 
       </div>
@@ -185,8 +308,26 @@
           </div>
           <div class="d-flex justify-content-center mb-3">
             <a href=""
-              class="btn btn-success"> See Project
+              class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"> See Project
             </a>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./Images/modal-img.png" style="width: 100%;">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
       </div>
     </div>

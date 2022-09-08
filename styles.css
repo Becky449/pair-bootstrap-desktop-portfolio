@@ -19,8 +19,19 @@ body {
     padding: 50vm;
 }
 
-/* .end-section {
-    background: rgb(184, 164, 164);
-    width: 80vw;
+/* .bg-2 {
+  display: none;
 } */
+
+@media screen and (max-width: 768px) {
+  .bg-1 {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg-2 {
+    display: none !important;
+  }
+}
 
