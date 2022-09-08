@@ -48,7 +48,11 @@ N/A
 
 - GitHub: [@becky449](https://github.com/becky449)
 
+👤 **Author2**
+
 - GitHub: [@doheera-kosi](https://github.com/doheera-kosi)
+
+👤 **Author3**
 
 - GitHub: [@usamamaliq](https://github.com/usamamaliq)
 - Twitter: [@usamamaliq](https://twitter.com/usamamaliq)
