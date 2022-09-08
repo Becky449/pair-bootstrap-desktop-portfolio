@@ -1,0 +1,37 @@
+body {
+    color: #172B4D;
+}
+
+.about-me {
+    background-image: url(./Images/about-me-left-bottom.svg), url(./Images/about-me-right-top.svg);
+    background-position: bottom left, top right;
+    background-repeat: no-repeat;
+}
+
+.end {
+    background-image: url(./Images/footer-left-end.svg), url(./Images/footer-right-end.svg);
+    background-position: bottom left, top right;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+
+.end-text {
+    padding: 50vm;
+}
+
+/* .bg-2 {
+  display: none;
+} */
+
+@media screen and (max-width: 768px) {
+  .bg-1 {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg-2 {
+    display: none !important;
+  }
+}
+
